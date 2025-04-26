@@ -289,7 +289,7 @@
         </mxCell>
         <mxCell id="_NAADeI3S30oYF9qwLOf-93" value="Đúng" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_NAADeI3S30oYF9qwLOf-61">
           <mxGeometry x="-0.0306" y="2" relative="1" as="geometry">
-            <mxPoint y="-22" as="offset" />
+            <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_NAADeI3S30oYF9qwLOf-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_NAADeI3S30oYF9qwLOf-54">
