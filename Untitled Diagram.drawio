@@ -64,14 +64,11 @@
         <mxCell id="knblfGrgIA1s73M3ITM0-16" value="Khởi tạo LCD" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="knblfGrgIA1s73M3ITM0-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-17" target="knblfGrgIA1s73M3ITM0-20" edge="1">
+        <mxCell id="knblfGrgIA1s73M3ITM0-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-18" target="knblfGrgIA1s73M3ITM0-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="knblfGrgIA1s73M3ITM0-17" value="Gửi thông điệp UART" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="820" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="knblfGrgIA1s73M3ITM0-18" value="Xóa bộ nhớ đệm UART" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="310" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="knblfGrgIA1s73M3ITM0-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-990" y="1000" width="120" height="60" as="geometry" />
@@ -172,35 +169,60 @@
         <mxCell id="knblfGrgIA1s73M3ITM0-30" value="Báo lỗi &quot;Err&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="500" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MECVlYbCM5brJ3BuSjMC-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-41" target="knblfGrgIA1s73M3ITM0-56">
+        <mxCell id="MECVlYbCM5brJ3BuSjMC-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-41" target="knblfGrgIA1s73M3ITM0-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="knblfGrgIA1s73M3ITM0-41" value="Xóa bộ nhớ đệm UART" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="1900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MECVlYbCM5brJ3BuSjMC-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-56" target="knblfGrgIA1s73M3ITM0-57">
+        <mxCell id="MECVlYbCM5brJ3BuSjMC-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-56" target="knblfGrgIA1s73M3ITM0-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="knblfGrgIA1s73M3ITM0-56" value="MQ3:&lt;br&gt;&lt;div&gt;&lt;div&gt;MQ3 Digital:&lt;br&gt;&lt;div&gt;MQ3 Analog:&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="1990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MECVlYbCM5brJ3BuSjMC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-57" target="knblfGrgIA1s73M3ITM0-58">
+        <mxCell id="MECVlYbCM5brJ3BuSjMC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-57" target="knblfGrgIA1s73M3ITM0-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="knblfGrgIA1s73M3ITM0-57" value="Pulse Sensor:" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="2080" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_NAADeI3S30oYF9qwLOf-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-58" target="MECVlYbCM5brJ3BuSjMC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="knblfGrgIA1s73M3ITM0-58" value="Ultrasonic:" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="2180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MECVlYbCM5brJ3BuSjMC-3" value="Send UART" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MECVlYbCM5brJ3BuSjMC-3" value="Send UART" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MECVlYbCM5brJ3BuSjMC-4" value="Send DIstance,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MQ3, Pulse qua UART&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="_NAADeI3S30oYF9qwLOf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MECVlYbCM5brJ3BuSjMC-4" target="MECVlYbCM5brJ3BuSjMC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MECVlYbCM5brJ3BuSjMC-4" value="Send DIstance,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MQ3, Pulse qua UART&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="2338" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MECVlYbCM5brJ3BuSjMC-5" value="Điểu khiển LED, BUZZER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="_NAADeI3S30oYF9qwLOf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MECVlYbCM5brJ3BuSjMC-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="2450" />
+              <mxPoint x="-150" y="980" />
+              <mxPoint x="370" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MECVlYbCM5brJ3BuSjMC-5" value="Điểu khiển LED, BUZZER" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="690" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NAADeI3S30oYF9qwLOf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-17" target="knblfGrgIA1s73M3ITM0-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="880" as="sourcePoint" />
+            <mxPoint x="370" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knblfGrgIA1s73M3ITM0-18" value="Xóa bộ nhớ đệm UART" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="310" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
