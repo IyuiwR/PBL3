@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4160" dy="1622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2582" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -569,6 +569,16 @@
         <mxCell id="buGVn9j9YcIkH5qX3WIc-110" value="Motor running in High speed mode" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2787.5" y="280" width="230" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="buGVn9j9YcIkH5qX3WIc-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="buGVn9j9YcIkH5qX3WIc-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3180" y="499.4073712384259" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2903" y="140" />
+              <mxPoint x="3440" y="140" />
+              <mxPoint x="3440" y="499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="buGVn9j9YcIkH5qX3WIc-112" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Turn on LED_HIGH, Turn off LED_LOW&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2842.5" y="180" width="120" height="60" as="geometry" />
         </mxCell>
@@ -583,8 +593,22 @@
         <mxCell id="buGVn9j9YcIkH5qX3WIc-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="buGVn9j9YcIkH5qX3WIc-115" target="buGVn9j9YcIkH5qX3WIc-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="buGVn9j9YcIkH5qX3WIc-205" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="buGVn9j9YcIkH5qX3WIc-121">
+          <mxGeometry x="-0.1412" y="-3" relative="1" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="buGVn9j9YcIkH5qX3WIc-115" value="Motor running in Low speed mode" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3062.5" y="280" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="buGVn9j9YcIkH5qX3WIc-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="buGVn9j9YcIkH5qX3WIc-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3177.5" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3440" y="200" />
+              <mxPoint x="3440" y="500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="buGVn9j9YcIkH5qX3WIc-118" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Turn off LED_HIGH, turn on LED_LOW&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3117.5" y="170" width="120" height="60" as="geometry" />
