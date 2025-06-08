@@ -199,14 +199,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_NAADeI3S30oYF9qwLOf-33" value="&lt;div&gt;Print &quot;Emergency Pause&quot; on LCD and send UART&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="680.75" y="986" width="120" height="60" as="geometry" />
+        <mxCell id="_NAADeI3S30oYF9qwLOf-33" value="&lt;div&gt;Turn off the system&lt;br&gt;Print &quot;Emergency Pause&quot; on LCD and send UART&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="690" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_NAADeI3S30oYF9qwLOf-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_NAADeI3S30oYF9qwLOf-38" target="knblfGrgIA1s73M3ITM0-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_NAADeI3S30oYF9qwLOf-38" value="&lt;li class=&quot;break-words&quot;&gt;Clear LCD, Print &quot;System Resume&quot; và send UART&lt;/li&gt;&lt;li class=&quot;break-words&quot;&gt;Resume the system&lt;/li&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="1096" width="220" height="60" as="geometry" />
+          <mxGeometry x="320" y="1030" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_NAADeI3S30oYF9qwLOf-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_NAADeI3S30oYF9qwLOf-45" target="_NAADeI3S30oYF9qwLOf-47" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -385,8 +385,14 @@
         <mxCell id="hntqBbyRDv-MwokLAV71-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="knblfGrgIA1s73M3ITM0-16" target="knblfGrgIA1s73M3ITM0-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="buGVn9j9YcIkH5qX3WIc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hntqBbyRDv-MwokLAV71-4" target="buGVn9j9YcIkH5qX3WIc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hntqBbyRDv-MwokLAV71-4" value="emergency_button = 1 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="372.5" y="280" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buGVn9j9YcIkH5qX3WIc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="buGVn9j9YcIkH5qX3WIc-1" target="_NAADeI3S30oYF9qwLOf-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="buGVn9j9YcIkH5qX3WIc-1" value="Reverse emergency_pause" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
