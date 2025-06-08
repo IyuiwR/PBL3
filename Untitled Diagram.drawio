@@ -524,6 +524,15 @@
         <mxCell id="buGVn9j9YcIkH5qX3WIc-76" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Update last_alert_zone = current_alert_zone&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1030" y="-440" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="buGVn9j9YcIkH5qX3WIc-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="buGVn9j9YcIkH5qX3WIc-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="-460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1640" y="1210" />
+              <mxPoint x="1640" y="-460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="buGVn9j9YcIkH5qX3WIc-79" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;Reset distance_alert_counter, current_alert_zone, last_alert_zone, alert_triggered&lt;br&gt;Turn off BUZZER&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1350" y="1179.5" width="280" height="60" as="geometry" />
         </mxCell>
